@@ -1,13 +1,13 @@
 import pytest
 
-from main import BooksCollector
+# from main import BooksCollector
 
 
 class TestBooksCollector:
 
-    @pytest.fixture
-    def collector(self):
-        return BooksCollector()
+    # @pytest.fixture
+    # def collector(self):
+    #     return BooksCollector()
 
     def test_add_new_book_duplicate_books_does_not_added(self, collector):
         collector.add_new_book("Один Дома")
